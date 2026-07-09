@@ -7,7 +7,7 @@ import { ScrollReveal } from './scroll-reveal'
 const WHATSAPP_NUMBER = '16729999761'
 
 const selectClass =
-  'w-full rounded-sm border border-input bg-charcoal px-3 py-2.5 text-sm text-linen focus:border-brass focus:outline-none'
+  'w-full rounded-sm border border-input bg-charcoal px-3 py-3 text-sm text-linen focus:border-brass focus:outline-none min-h-[48px]'
 const inputClass = selectClass
 const labelClass =
   'mb-1.5 block font-mono text-[11px] uppercase tracking-[0.15em] text-linen-dim'
@@ -35,8 +35,8 @@ export function Contact() {
   }
 
   return (
-    <section id="contact" className="scroll-mt-16 bg-charcoal py-20 lg:py-28">
-      <div className="mx-auto grid max-w-6xl gap-12 px-4 md:px-6 lg:grid-cols-[1fr_1.2fr] lg:gap-16">
+    <section id="contact" className="scroll-mt-16 bg-charcoal py-14 lg:py-28">
+      <div className="mx-auto grid max-w-6xl gap-10 px-4 md:px-6 lg:grid-cols-[1fr_1.2fr] lg:gap-16">
         {/* Info block */}
         <ScrollReveal>
           <p className="font-mono text-xs uppercase tracking-[0.25em] text-brass">
@@ -91,7 +91,7 @@ export function Contact() {
         <ScrollReveal delay={0.15}>
           <form
             onSubmit={handleSubmit}
-            className="rounded-sm border border-border bg-stone p-6 md:p-8"
+            className="rounded-sm border border-border bg-stone p-5 sm:p-6 md:p-8"
           >
             <div className="grid gap-5 sm:grid-cols-2">
               <div>
@@ -173,7 +173,7 @@ export function Contact() {
 
             <button
               type="submit"
-              className="mt-6 w-full rounded-sm bg-brass px-6 py-3.5 text-sm font-semibold text-charcoal transition-colors hover:bg-brass-bright"
+              className="mt-6 w-full rounded-sm bg-brass px-6 py-4 text-sm font-semibold text-charcoal transition-colors hover:bg-brass-bright min-h-[52px]"
             >
               Send via WhatsApp
             </button>

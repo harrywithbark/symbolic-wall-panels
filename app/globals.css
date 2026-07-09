@@ -21,16 +21,17 @@
   --color-input: var(--input);
   --color-ring: var(--ring);
 
-  --color-charcoal: #15130f;
-  --color-stone: #262219;
-  --color-stone-2: #332d22;
-  --color-oak: #a8794c;
-  --color-oak-dark: #7c5738;
-  --color-walnut: #4a3020;
-  --color-brass: #c0995f;
-  --color-brass-bright: #d4ad73;
-  --color-linen: #efe8da;
-  --color-linen-dim: #c9c0ae;
+  /* Bold, clean palette — deep black base, pure white text, rich gold accent */
+  --color-charcoal: #0a0a0a;
+  --color-stone: #111111;
+  --color-stone-2: #1a1a1a;
+  --color-oak: #c9a84c;
+  --color-oak-dark: #a8872e;
+  --color-walnut: #1a1a1a;
+  --color-brass: #c9a84c;
+  --color-brass-bright: #e2be68;
+  --color-linen: #ffffff;
+  --color-linen-dim: #a0a0a0;
 
   --radius-sm: 2px;
   --radius-md: 2px;
@@ -40,21 +41,21 @@
 
 :root {
   color-scheme: dark;
-  --background: #15130f;
-  --foreground: #efe8da;
-  --card: #262219;
-  --card-foreground: #efe8da;
-  --primary: #c0995f;
-  --primary-foreground: #15130f;
-  --secondary: #332d22;
-  --secondary-foreground: #efe8da;
-  --muted: #262219;
-  --muted-foreground: #c9c0ae;
-  --accent: #a8794c;
-  --accent-foreground: #15130f;
-  --border: rgba(239, 232, 218, 0.12);
-  --input: rgba(239, 232, 218, 0.16);
-  --ring: #c0995f;
+  --background: #0a0a0a;
+  --foreground: #ffffff;
+  --card: #111111;
+  --card-foreground: #ffffff;
+  --primary: #c9a84c;
+  --primary-foreground: #0a0a0a;
+  --secondary: #1a1a1a;
+  --secondary-foreground: #ffffff;
+  --muted: #111111;
+  --muted-foreground: #a0a0a0;
+  --accent: #c9a84c;
+  --accent-foreground: #0a0a0a;
+  --border: rgba(255, 255, 255, 0.1);
+  --input: rgba(255, 255, 255, 0.1);
+  --ring: #c9a84c;
 }
 
 @layer base {
