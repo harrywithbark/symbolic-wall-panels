@@ -8,6 +8,7 @@ import { Faq } from '@/components/faq'
 import { CtaBand } from '@/components/cta-band'
 import { Contact } from '@/components/contact'
 import { Footer } from '@/components/footer'
+import { WhatsAppButton } from '@/components/whatsapp-button'
 
 export default function Page() {
   return (
@@ -27,6 +28,7 @@ export default function Page() {
         <Contact />
       </main>
       <Footer />
+      <WhatsAppButton />
     </>
   )
 }
